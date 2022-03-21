@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		20E739EDC89EE2B4F29496711F62C0E2 /* NearbyMessages */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05F297B59468027B03C9369C41CECBB9 /* Build configuration list for PBXAggregateTarget "NearbyMessages" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B4D24835E157950209497A81569D5B33 /* PBXTargetDependency */,
+				284100230FFCBB2ECF05A69F96DDD312 /* PBXTargetDependency */,
+				76E7B4884EEE8A0B2015FF6EE94D4059 /* PBXTargetDependency */,
+				B5BD3516AA3FDEB792ABA8499EB65881 /* PBXTargetDependency */,
+			);
+			name = NearbyMessages;
+		};
+		4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01983F47C2EF8B86BB6F8DF085D96205 /* Build configuration list for PBXAggregateTarget "GoogleInterchangeUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F3B457CAE5CD5B3F521B4D4D0D1590FC /* PBXTargetDependency */,
+			);
+			name = GoogleInterchangeUtilities;
+		};
+		4BA031D474A32CD35B521EE1CE325EAB /* GoogleNetworkingUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9A290B58DEDCD957C6ECB501FEF8064 /* Build configuration list for PBXAggregateTarget "GoogleNetworkingUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E8B5AEF29AC792D442EE87CB0CC77C92 /* PBXTargetDependency */,
+			);
+			name = GoogleNetworkingUtilities;
+		};
+		8161A8376AC0801871A5F373B5E29A75 /* GoogleUtilitiesLegacy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FE068F70BDD9C0E93E84ED5559493B27 /* Build configuration list for PBXAggregateTarget "GoogleUtilitiesLegacy" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5722E10F1AC2754D68F72B1C49518422 /* PBXTargetDependency */,
+			);
+			name = GoogleUtilitiesLegacy;
+		};
+		E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B14E677630FDC110B7D2040263FE24FC /* Build configuration list for PBXAggregateTarget "GoogleSymbolUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleSymbolUtilities;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		65AFBA60D07ABE7F16FBFD36F13108E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77F9ECC939EB0589EBE1CC51FFE56AD2 /* Pods-nearby-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CFF5B53812D4D1E3E3DF7F4E84532 /* Pods-nearby-dummy.m */; };
+		F6D110568CD9FE823AF0D7E6607F02D3 /* Pods-nearby-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3DCDD2A836F6128DF90725D20783C9 /* Pods-nearby-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC661F4248661176806D02B7953D169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		2A9F74B8524507A9BC0983FE363E7179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		3434C50AC3820A598B0C7456B2F2AF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		34C44656115369AC46D05C9A0518BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		45120B05030D1DBCEFFF2855BF20CFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA031D474A32CD35B521EE1CE325EAB;
+			remoteInfo = GoogleNetworkingUtilities;
+		};
+		4D745035B7822FF92329CEF8B56C78FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4271BC845D74C388172EBF91053C6A61;
+			remoteInfo = GoogleInterchangeUtilities;
+		};
+		57362EA43A4A0B056BE351EA419FE38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA031D474A32CD35B521EE1CE325EAB;
+			remoteInfo = GoogleNetworkingUtilities;
+		};
+		5A5A92D6EB36F9F70D857F814666227C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8161A8376AC0801871A5F373B5E29A75;
+			remoteInfo = GoogleUtilitiesLegacy;
+		};
+		6A3C2263E2EDB73A1AE6BF2EBD30A778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		84ED3653EDFECD4577A96E1447E08A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8161A8376AC0801871A5F373B5E29A75;
+			remoteInfo = GoogleUtilitiesLegacy;
+		};
+		933BCB21431923807721ECE6A2681269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4271BC845D74C388172EBF91053C6A61;
+			remoteInfo = GoogleInterchangeUtilities;
+		};
+		DD4AD42E8312A3D15D2B82D610841794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E739EDC89EE2B4F29496711F62C0E2;
+			remoteInfo = NearbyMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024EF372AC63D12293A8B61F789B7DBF /* GNSMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSMessages.h; path = Sources/GNSMessages.h; sourceTree = "<group>"; };
+		046E765D8F49B0BE10413034D2220E59 /* GNSBeaconStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSBeaconStrategy.h; path = Sources/GNSBeaconStrategy.h; sourceTree = "<group>"; };
+		05B57515EF2C799BA00E1D598E6473A6 /* GoogleSymbolUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSymbolUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		084BC74631F7A366846DE1722B15A403 /* Pods-nearby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nearby.release.xcconfig"; sourceTree = "<group>"; };
+		10C3AD954B9BDC9EED35E9F478699D48 /* GoogleInterchangeUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleInterchangeUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		178D25B8F51BEFEB33974FCCD7663CED /* GNSMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSMessage.h; path = Sources/GNSMessage.h; sourceTree = "<group>"; };
+		1A4833E8070EB25842C1D5ED14C177F9 /* GoogleSymbolUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSymbolUtilities.release.xcconfig; sourceTree = "<group>"; };
+		287497C7D97CA1B0611130198C3351E5 /* GNSPublicationParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSPublicationParams.h; path = Sources/GNSPublicationParams.h; sourceTree = "<group>"; };
+		2FA74DB49C9A0211FE379A2E3DC1F20F /* NearbyMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NearbyMessages.debug.xcconfig; sourceTree = "<group>"; };
+		311DCA6B9F57CCDBCB30B06013DD0A81 /* GNSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSError.h; path = Sources/GNSError.h; sourceTree = "<group>"; };
+		334CFF5B53812D4D1E3E3DF7F4E84532 /* Pods-nearby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nearby-dummy.m"; sourceTree = "<group>"; };
+		34754261CE7B31869B774474ECE2CACA /* Pods-nearby.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-nearby.modulemap"; sourceTree = "<group>"; };
+		375CF35E8B1F9339C172244B8AE4D83F /* ic_expand_more.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ic_expand_more.xcassets; path = Resources/resources/ic_expand_more.xcassets; sourceTree = "<group>"; };
+		378A03819EA80ACC2F14DDD689B24675 /* GoogleNetworkingUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleNetworkingUtilities.release.xcconfig; sourceTree = "<group>"; };
+		38EECB24BF8D5BC019D7CFAF1E0B9055 /* Pods-nearby-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nearby-Info.plist"; sourceTree = "<group>"; };
+		46E3CDCF2FFF8CBAE7803C5EA02DA93B /* GNSStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSStrategy.h; path = Sources/GNSStrategy.h; sourceTree = "<group>"; };
+		50E4B554DFF5FDD9B5448B216010E937 /* libGNSMessages.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGNSMessages.a; path = Libraries/libGNSMessages.a; sourceTree = "<group>"; };
+		5D633D0ACE3FEC65D06F7501B210EB0B /* GNSSubscriptionParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSSubscriptionParams.h; path = Sources/GNSSubscriptionParams.h; sourceTree = "<group>"; };
+		60573F3E04C6E76AC1910CEC2C4692F3 /* GNSMessageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSMessageManager.h; path = Sources/GNSMessageManager.h; sourceTree = "<group>"; };
+		62853BF61DE0515C9704364177E19F48 /* GoogleNetworkingUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleNetworkingUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		67CE2EDFA70A5B7165C866872B3EA8EB /* GoogleUtilitiesLegacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilitiesLegacy.debug.xcconfig; sourceTree = "<group>"; };
+		68A9C22E80046AAB25E90F7712428383 /* GNSSharedResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GNSSharedResources.bundle; path = Resources/resources/GNSSharedResources.bundle; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76A2D9C8C8BDB0F3A3A52F8FDDC08850 /* GoogleInterchangeUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleInterchangeUtilities.release.xcconfig; sourceTree = "<group>"; };
+		7AEF962D28D397A7107A16FC9C909F7B /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		901BB1653ABB330BBBA0F4338AF4DF18 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C08BFA3624DE82FF885C6F9FDAFCEA /* GNSOperationStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSOperationStatus.h; path = Sources/GNSOperationStatus.h; sourceTree = "<group>"; };
+		AABD0A8CD93A1EA9A5CA15E4C3061BB2 /* ic_nearby_48pt.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ic_nearby_48pt.xcassets; path = Resources/resources/ic_nearby_48pt.xcassets; sourceTree = "<group>"; };
+		C2CEF3B83D4EE352C00DC5EFF904C166 /* NearbyMessages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NearbyMessages.release.xcconfig; sourceTree = "<group>"; };
+		CED4A31BEA7F4C6420F39C54B167497F /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		D5BE19AA9313B17FA36409E5632A1D9F /* GoogleUtilitiesLegacy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilitiesLegacy.framework; path = Frameworks/frameworks/GoogleUtilitiesLegacy.framework; sourceTree = "<group>"; };
+		D5EBE4022A10098EB5C5979AB0B1C0F5 /* Pods-nearby-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nearby-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D65F5732DEB7E8CFF3980D673645AA1F /* Pods-nearby-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nearby-acknowledgements.plist"; sourceTree = "<group>"; };
+		D665DDDB90DB5314045E2341C5446FC6 /* Pods-nearby */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-nearby"; path = Pods_nearby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3729C4DD6B86441C76BBD442CEA4C /* GoogleUtilitiesLegacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilitiesLegacy.release.xcconfig; sourceTree = "<group>"; };
+		DBA36CD0E4A9074C8D23A847BED210E8 /* Pods-nearby-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nearby-resources.sh"; sourceTree = "<group>"; };
+		F1787CA4A84973F9F82EF0EBFAFB0527 /* GNSPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSPermission.h; path = Sources/GNSPermission.h; sourceTree = "<group>"; };
+		F9BF0BC4C8C05CC486F1009C1CDD3579 /* Pods-nearby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nearby.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3DCDD2A836F6128DF90725D20783C9 /* Pods-nearby-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nearby-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB6AC965F1C5CB06F7B3258EC42F6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AFBA60D07ABE7F16FBFD36F13108E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03555D0372137354E4C972C7908562B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E4B554DFF5FDD9B5448B216010E937 /* libGNSMessages.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		174047A5628F15CA0C942120F796C12E /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5568BD948270B2A38FF13B04785F016 /* Frameworks */,
+				64A541BA4DB9687A4296BA88634B62C2 /* Support Files */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		43C34E011F43FA0263D11B46141F59DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901BB1653ABB330BBBA0F4338AF4DF18 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64A541BA4DB9687A4296BA88634B62C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C3AD954B9BDC9EED35E9F478699D48 /* GoogleInterchangeUtilities.debug.xcconfig */,
+				76A2D9C8C8BDB0F3A3A52F8FDDC08850 /* GoogleInterchangeUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleInterchangeUtilities";
+			sourceTree = "<group>";
+		};
+		7C93C123B2276582A140115B3EC33ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5BE19AA9313B17FA36409E5632A1D9F /* GoogleUtilitiesLegacy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839831792F9481D6C4F1E23FA209EE82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA74DB49C9A0211FE379A2E3DC1F20F /* NearbyMessages.debug.xcconfig */,
+				C2CEF3B83D4EE352C00DC5EFF904C166 /* NearbyMessages.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NearbyMessages";
+			sourceTree = "<group>";
+		};
+		84E965024EE779FD709468D3D9E2B942 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05B57515EF2C799BA00E1D598E6473A6 /* GoogleSymbolUtilities.debug.xcconfig */,
+				1A4833E8070EB25842C1D5ED14C177F9 /* GoogleSymbolUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleSymbolUtilities";
+			sourceTree = "<group>";
+		};
+		88CB2B7E272A5331B767C66BF9FEC6F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				174047A5628F15CA0C942120F796C12E /* GoogleInterchangeUtilities */,
+				CBE9D74E5A34C4541B869C61782B91A4 /* GoogleNetworkingUtilities */,
+				FB516E8E536454810D5CB93ACBE6BD98 /* GoogleSymbolUtilities */,
+				E997EEDA1D4BDBA5061944DB99F22672 /* GoogleUtilitiesLegacy */,
+				D9C97D1EFA97BB0E7BD7A9B0F2834F7E /* NearbyMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5568BD948270B2A38FF13B04785F016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF962D28D397A7107A16FC9C909F7B /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C7724A36E34114DD6E8C9F99D1E6E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62853BF61DE0515C9704364177E19F48 /* GoogleNetworkingUtilities.debug.xcconfig */,
+				378A03819EA80ACC2F14DDD689B24675 /* GoogleNetworkingUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleNetworkingUtilities";
+			sourceTree = "<group>";
+		};
+		B2AD538D7C1540EE5269AC3730EA08A2 /* Pods-nearby */ = {
+			isa = PBXGroup;
+			children = (
+				34754261CE7B31869B774474ECE2CACA /* Pods-nearby.modulemap */,
+				D5EBE4022A10098EB5C5979AB0B1C0F5 /* Pods-nearby-acknowledgements.markdown */,
+				D65F5732DEB7E8CFF3980D673645AA1F /* Pods-nearby-acknowledgements.plist */,
+				334CFF5B53812D4D1E3E3DF7F4E84532 /* Pods-nearby-dummy.m */,
+				38EECB24BF8D5BC019D7CFAF1E0B9055 /* Pods-nearby-Info.plist */,
+				DBA36CD0E4A9074C8D23A847BED210E8 /* Pods-nearby-resources.sh */,
+				FC3DCDD2A836F6128DF90725D20783C9 /* Pods-nearby-umbrella.h */,
+				F9BF0BC4C8C05CC486F1009C1CDD3579 /* Pods-nearby.debug.xcconfig */,
+				084BC74631F7A366846DE1722B15A403 /* Pods-nearby.release.xcconfig */,
+			);
+			name = "Pods-nearby";
+			path = "Target Support Files/Pods-nearby";
+			sourceTree = "<group>";
+		};
+		B714893D6D9961E17BD9E944E2549084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D665DDDB90DB5314045E2341C5446FC6 /* Pods-nearby */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE9D74E5A34C4541B869C61782B91A4 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				43C34E011F43FA0263D11B46141F59DC /* Frameworks */,
+				A8C7724A36E34114DD6E8C9F99D1E6E7 /* Support Files */,
+			);
+			name = GoogleNetworkingUtilities;
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88CB2B7E272A5331B767C66BF9FEC6F9 /* Pods */,
+				B714893D6D9961E17BD9E944E2549084 /* Products */,
+				DA6B065BC43EBC2E7839FCD1C30B62AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D10DAB704DD900A41FCB4EAB52748CFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67CE2EDFA70A5B7165C866872B3EA8EB /* GoogleUtilitiesLegacy.debug.xcconfig */,
+				D6C3729C4DD6B86441C76BBD442CEA4C /* GoogleUtilitiesLegacy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleUtilitiesLegacy";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23D0B8BED3EBDA1DB125EBD71CDEBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED4A31BEA7F4C6420F39C54B167497F /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D370C7BD53EC9AAE1680A0CBB3C7D67A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68A9C22E80046AAB25E90F7712428383 /* GNSSharedResources.bundle */,
+				375CF35E8B1F9339C172244B8AE4D83F /* ic_expand_more.xcassets */,
+				AABD0A8CD93A1EA9A5CA15E4C3061BB2 /* ic_nearby_48pt.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D9C97D1EFA97BB0E7BD7A9B0F2834F7E /* NearbyMessages */ = {
+			isa = PBXGroup;
+			children = (
+				046E765D8F49B0BE10413034D2220E59 /* GNSBeaconStrategy.h */,
+				311DCA6B9F57CCDBCB30B06013DD0A81 /* GNSError.h */,
+				178D25B8F51BEFEB33974FCCD7663CED /* GNSMessage.h */,
+				60573F3E04C6E76AC1910CEC2C4692F3 /* GNSMessageManager.h */,
+				024EF372AC63D12293A8B61F789B7DBF /* GNSMessages.h */,
+				A5C08BFA3624DE82FF885C6F9FDAFCEA /* GNSOperationStatus.h */,
+				F1787CA4A84973F9F82EF0EBFAFB0527 /* GNSPermission.h */,
+				287497C7D97CA1B0611130198C3351E5 /* GNSPublicationParams.h */,
+				46E3CDCF2FFF8CBAE7803C5EA02DA93B /* GNSStrategy.h */,
+				5D633D0ACE3FEC65D06F7501B210EB0B /* GNSSubscriptionParams.h */,
+				03555D0372137354E4C972C7908562B6 /* Frameworks */,
+				D370C7BD53EC9AAE1680A0CBB3C7D67A /* Resources */,
+				839831792F9481D6C4F1E23FA209EE82 /* Support Files */,
+			);
+			name = NearbyMessages;
+			path = NearbyMessages;
+			sourceTree = "<group>";
+		};
+		DA6B065BC43EBC2E7839FCD1C30B62AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD538D7C1540EE5269AC3730EA08A2 /* Pods-nearby */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E997EEDA1D4BDBA5061944DB99F22672 /* GoogleUtilitiesLegacy */ = {
+			isa = PBXGroup;
+			children = (
+				7C93C123B2276582A140115B3EC33ECB /* Frameworks */,
+				D10DAB704DD900A41FCB4EAB52748CFD /* Support Files */,
+			);
+			name = GoogleUtilitiesLegacy;
+			path = GoogleUtilitiesLegacy;
+			sourceTree = "<group>";
+		};
+		FB516E8E536454810D5CB93ACBE6BD98 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D23D0B8BED3EBDA1DB125EBD71CDEBCA /* Frameworks */,
+				84E965024EE779FD709468D3D9E2B942 /* Support Files */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0967183E99E68A68B2BC2C75DFC83130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D110568CD9FE823AF0D7E6607F02D3 /* Pods-nearby-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFD952D2253C815A6ED22F59E4CA73A0 /* Pods-nearby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02F23810051521DCCEB3B2DCB662F86 /* Build configuration list for PBXNativeTarget "Pods-nearby" */;
+			buildPhases = (
+				0967183E99E68A68B2BC2C75DFC83130 /* Headers */,
+				8464DBE728A73CCB870117B643535780 /* Sources */,
+				BFB6AC965F1C5CB06F7B3258EC42F6C3 /* Frameworks */,
+				C7E338D7276CE57424CB7EF7C851FEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D625360952B35FFA173841E82C536112 /* PBXTargetDependency */,
+				153CEE116E4CD64C360CE47B96006852 /* PBXTargetDependency */,
+				31E2442119CE87018C971CB39ADBEBBD /* PBXTargetDependency */,
+				2E6D64297282A8C15C30185613829AC8 /* PBXTargetDependency */,
+				E1F1E87FB5BDBDB9D2ED1A434C6B26C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-nearby";
+			productName = Pods_nearby;
+			productReference = D665DDDB90DB5314045E2341C5446FC6 /* Pods-nearby */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B714893D6D9961E17BD9E944E2549084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */,
+				4BA031D474A32CD35B521EE1CE325EAB /* GoogleNetworkingUtilities */,
+				E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */,
+				8161A8376AC0801871A5F373B5E29A75 /* GoogleUtilitiesLegacy */,
+				20E739EDC89EE2B4F29496711F62C0E2 /* NearbyMessages */,
+				EFD952D2253C815A6ED22F59E4CA73A0 /* Pods-nearby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E338D7276CE57424CB7EF7C851FEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8464DBE728A73CCB870117B643535780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F9ECC939EB0589EBE1CC51FFE56AD2 /* Pods-nearby-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153CEE116E4CD64C360CE47B96006852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleNetworkingUtilities;
+			target = 4BA031D474A32CD35B521EE1CE325EAB /* GoogleNetworkingUtilities */;
+			targetProxy = 45120B05030D1DBCEFFF2855BF20CFD5 /* PBXContainerItemProxy */;
+		};
+		284100230FFCBB2ECF05A69F96DDD312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleNetworkingUtilities;
+			target = 4BA031D474A32CD35B521EE1CE325EAB /* GoogleNetworkingUtilities */;
+			targetProxy = 57362EA43A4A0B056BE351EA419FE38B /* PBXContainerItemProxy */;
+		};
+		2E6D64297282A8C15C30185613829AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilitiesLegacy;
+			target = 8161A8376AC0801871A5F373B5E29A75 /* GoogleUtilitiesLegacy */;
+			targetProxy = 5A5A92D6EB36F9F70D857F814666227C /* PBXContainerItemProxy */;
+		};
+		31E2442119CE87018C971CB39ADBEBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 0DC661F4248661176806D02B7953D169 /* PBXContainerItemProxy */;
+		};
+		5722E10F1AC2754D68F72B1C49518422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 6A3C2263E2EDB73A1AE6BF2EBD30A778 /* PBXContainerItemProxy */;
+		};
+		76E7B4884EEE8A0B2015FF6EE94D4059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 3434C50AC3820A598B0C7456B2F2AF62 /* PBXContainerItemProxy */;
+		};
+		B4D24835E157950209497A81569D5B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleInterchangeUtilities;
+			target = 4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */;
+			targetProxy = 4D745035B7822FF92329CEF8B56C78FA /* PBXContainerItemProxy */;
+		};
+		B5BD3516AA3FDEB792ABA8499EB65881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilitiesLegacy;
+			target = 8161A8376AC0801871A5F373B5E29A75 /* GoogleUtilitiesLegacy */;
+			targetProxy = 84ED3653EDFECD4577A96E1447E08A35 /* PBXContainerItemProxy */;
+		};
+		D625360952B35FFA173841E82C536112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleInterchangeUtilities;
+			target = 4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */;
+			targetProxy = 933BCB21431923807721ECE6A2681269 /* PBXContainerItemProxy */;
+		};
+		E1F1E87FB5BDBDB9D2ED1A434C6B26C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NearbyMessages;
+			target = 20E739EDC89EE2B4F29496711F62C0E2 /* NearbyMessages */;
+			targetProxy = DD4AD42E8312A3D15D2B82D610841794 /* PBXContainerItemProxy */;
+		};
+		E8B5AEF29AC792D442EE87CB0CC77C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 2A9F74B8524507A9BC0983FE363E7179 /* PBXContainerItemProxy */;
+		};
+		F3B457CAE5CD5B3F521B4D4D0D1590FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 34C44656115369AC46D05C9A0518BF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0682B6A83B0EE70179ACB00C16CFDB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A2D9C8C8BDB0F3A3A52F8FDDC08850 /* GoogleInterchangeUtilities.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CDBE68F7FD90458D3A9E91204E03C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4833E8070EB25842C1D5ED14C177F9 /* GoogleSymbolUtilities.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B806CAB7E0C23488D600A247780F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084BC74631F7A366846DE1722B15A403 /* Pods-nearby.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nearby/Pods-nearby-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nearby/Pods-nearby.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3932C81E95432FA56FF78ADA8BFA436E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C3AD954B9BDC9EED35E9F478699D48 /* GoogleInterchangeUtilities.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C3CB1A6EF4C080B82E919FF3FF4501F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BF0BC4C8C05CC486F1009C1CDD3579 /* Pods-nearby.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nearby/Pods-nearby-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nearby/Pods-nearby.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		856003B17DE6533C0CB4C22D1B833621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA74DB49C9A0211FE379A2E3DC1F20F /* NearbyMessages.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9716293E6D0014B17D4777B7ECBE367C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62853BF61DE0515C9704364177E19F48 /* GoogleNetworkingUtilities.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87B083A9F1ED3F405F6DDC132844D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B57515EF2C799BA00E1D598E6473A6 /* GoogleSymbolUtilities.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4575D5C75A84DEA7F83E7C90FCF9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CEF3B83D4EE352C00DC5EFF904C166 /* NearbyMessages.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B3AF2518D6D11C4FDCA103A550B3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378A03819EA80ACC2F14DDD689B24675 /* GoogleNetworkingUtilities.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D7134C57D93DCF737B318251B2516FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C3729C4DD6B86441C76BBD442CEA4C /* GoogleUtilitiesLegacy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44B779C5F78F7076736675A1F26B4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CE2EDFA70A5B7165C866872B3EA8EB /* GoogleUtilitiesLegacy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01983F47C2EF8B86BB6F8DF085D96205 /* Build configuration list for PBXAggregateTarget "GoogleInterchangeUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3932C81E95432FA56FF78ADA8BFA436E /* Debug */,
+				0682B6A83B0EE70179ACB00C16CFDB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F297B59468027B03C9369C41CECBB9 /* Build configuration list for PBXAggregateTarget "NearbyMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856003B17DE6533C0CB4C22D1B833621 /* Debug */,
+				AD4575D5C75A84DEA7F83E7C90FCF9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14E677630FDC110B7D2040263FE24FC /* Build configuration list for PBXAggregateTarget "GoogleSymbolUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87B083A9F1ED3F405F6DDC132844D58 /* Debug */,
+				0CDBE68F7FD90458D3A9E91204E03C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02F23810051521DCCEB3B2DCB662F86 /* Build configuration list for PBXNativeTarget "Pods-nearby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3CB1A6EF4C080B82E919FF3FF4501F /* Debug */,
+				29B806CAB7E0C23488D600A247780F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A290B58DEDCD957C6ECB501FEF8064 /* Build configuration list for PBXAggregateTarget "GoogleNetworkingUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9716293E6D0014B17D4777B7ECBE367C /* Debug */,
+				B4B3AF2518D6D11C4FDCA103A550B3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE068F70BDD9C0E93E84ED5559493B27 /* Build configuration list for PBXAggregateTarget "GoogleUtilitiesLegacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44B779C5F78F7076736675A1F26B4C7 /* Debug */,
+				D7134C57D93DCF737B318251B2516FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
